@@ -7,9 +7,15 @@
     tools:context="com.pinak_it_solution.jsonparshing.MainActivity">
 
     <Button
+        android:text="@string/click_me_to_load_json"
+        android:textAllCaps="false"
+        android:textSize="20sp"
         android:id="@+id/btnhit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/tvJsonHit"
